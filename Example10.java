@@ -6,11 +6,11 @@ public class Example10
 	public static void main(String[] args) 
 	{
 
-		String text = " my name is James Bond 007, my name is monark ";
+		String text = " my name is Pradnya Varade, my name is Pradnya ";
 
-		System.out.println(text.replace(' ', '-'));
+		System.out.println(text.replace(' ', '-'));  //replacing space by -
 		
-		System.out.println(text.replace("my name is monark", "your not a monark"));
+		System.out.println(text.replace("my name is mukund", "your not a mukund"));
 
 		System.out.println(text.trim());
 		

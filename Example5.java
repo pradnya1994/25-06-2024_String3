@@ -15,7 +15,18 @@ public class Example5
 		
 		System.out.println(text1.equals(text3));
 		
-		System.out.println(text1.equalsIgnoreCase(text4));
+		System.out.println(text1.equalsIgnoreCase(text4));  //ignoring uppercase lowercase letters
+
+		String text5 = "my name is raghav";
+		String text6 = "my name is pradnya";
+		String text7 = "my name is raghav";
+		String text8 = "My name is raghav";
+
+		System.out.println(text5.equals(text6));
+		
+		System.out.println(text5.equals(text7));
+		
+		System.out.println(text5.equalsIgnoreCase(text8));
 
 	}
 

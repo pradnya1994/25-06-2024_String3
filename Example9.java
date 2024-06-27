@@ -6,7 +6,7 @@ public class Example9
 	public static void main(String[] args) 
 	{
 
-		String text = "my name is James Bond 007, my name is monark";
+		String text = "my name is Tejas, my name is manasi";
 
 		System.out.println(text.lastIndexOf("name"));
 		
